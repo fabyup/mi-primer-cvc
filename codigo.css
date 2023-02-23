@@ -1,0 +1,89 @@
+
+
+
+:root{
+  --green: #00ff00;
+  --white:#ffffff;
+  --black:#000000;
+
+}
+/*ESTE ES MI PRIMER PROYECTO*/
+*{
+  margin: 0px;
+  padding: 0px;
+  color: var(--fontColor);
+
+}
+img{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 45%;
+  margin-top: 30px;
+}
+
+body{
+  background-color: var(--bg);
+
+}
+.list{
+  display: flex;
+  justify-content: center;
+
+  font-family: monospace;
+
+}
+li{
+  display: flex;
+  margin: 10px;
+  margin-left: 50px;
+  list-style: square;
+  font-family: monospace;
+  font-size: 15px;
+}
+h2{
+  font-family: monospace;
+  font-size:25px;
+  margin-left: 45px;
+}
+.btn{
+  margin-left: 25%;
+ border-radius: 35px;
+ width: 50%;
+ height: 50px;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+}  
+
+  
+ 
+
+ .light-theme{
+  --bg: var(--green);
+  --fontColor: var(--black);
+  --btnBg: var(--black);
+ --btnFontColor:var(--white);
+
+}
+.dark-theme{
+  --bg: var(--black);
+  --fontColor: var(--green);
+  --btnBg: var(--white);
+  --btnFontColor: var(--black);
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
